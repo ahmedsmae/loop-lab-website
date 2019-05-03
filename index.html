@@ -26,9 +26,9 @@
     <title>LoopLAB</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#main-nav" id="home">
     <!-- NAV BAR -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
         <div class="container">
             <a href="./index.html" class="navbar-brand">LoopLAB</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -37,7 +37,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#home-section" class="nav-link">Home</a>
+                        <a href="#home" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="#explore-head-section" class="nav-link">Explore</a>
@@ -298,9 +298,10 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="close" data-dismiss="modal">
+                    <h5 class="modal-title">Contact Us</h5>
+                    <button class="close" data-dismiss="modal">
                         <span>&times;</span>
-                    </h5>
+                    </button>
                 </div>
                 <div class="modal-body">
                     <form>
