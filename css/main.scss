@@ -1,10 +1,16 @@
+// COLOR VARIABLES
+$color-dark: #333;
+$color-light-blue: #008ed6;
+
+// UTILITY CLASSES
 body {
-    background: #333;
+    background: $color-dark;
     color: white;
 }
 
+// NAV BAR
 .navbar {
-    border-bottom: #008ed6 1.5px solid;
+    border-bottom: $color-light-blue 1.5px solid;
     opacity: 0.6;
 }
 
@@ -32,19 +38,28 @@ body {
     }
 
     .fas {
-        color: #008ed6;
+        color: $color-light-blue;
         background: white;
         padding: 5px;
         border-radius: 5px;
     }
 }
 
-// EXPLORE SECTION
+// EXPLORE, SHARE SECTION
 #explore-section,
 #share-section {
     .fas {
-        background: #333;
+        background: $color-dark;
         color: white;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
+
+#create-section {
+    .fas {
+        background: white;
+        color: $color-light-blue;
         padding: 5px;
         border-radius: 5px;
     }
